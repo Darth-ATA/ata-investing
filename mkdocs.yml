@@ -1,0 +1,70 @@
+site_name: ata-investing
+docs_dir: .
+repo_name: ata-investing
+edit_uri: edit/main/
+
+theme:
+  name: material
+  logo: docs/assets/ata-investing.png
+  favicon: docs/assets/ata-investing.png
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Open Sans
+  features:
+    - navigation.instant
+    #Activate when we have tons of sections: - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.share
+    - navigation.footer
+    - content.action.edit
+    - content.code.copy
+    - content.code.select
+    - header.autohide
+
+plugins:
+  - search
+  - same-dir
+  - git-revision-date-localized
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # Latex formulas
+  - pymdownx.arithmatex:
+      generic: true
+  # Mermaid diagrams
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # Code Highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # Boxes for warning
+  - admonition
+  - pymdownx.details
+  # Tables
+  - tables
+
+# Latex formulas
+extra_javascript:
+  - docs/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Customize the look of mkdocs
+extra_css:
+  - docs/stylesheets/extra.css
