@@ -1,0 +1,79 @@
+[data-md-color-scheme="dark"] {
+  --ata-investing-green: hsla(153, 55%, 78% , 1);
+  --ata-investing-green-light: hsla(153, 100%, 74% , 0.1);
+  --ata-investing-black: #282a36;
+  --ata-investing-white: #f8f8f2;
+
+  --ata-investing-font-color: hsla(214, 13%, 24% , 1);
+  --ata-investing-font-color-light: hsla(214, 13%, 24% , 0.7);
+  --ata-investing-font-color-lighter: hsla(214, 13%, 24% , 0.32);
+  --ata-investing-font-color-lightest: hsla(214, 13%, 24% , 0.32);
+  --ata-investing-link: #8be9fd;
+
+  --md-primary-fg-color: linear-gradient(90deg, #bd93f9 20.31%, #50fa7b 55.74%, #ff5555 89.34%);
+
+  --md-primary-bg-color:               var(--ata-investing-font-color);
+  --md-primary-bg-color--light:        var(--ata-investing-font-color-light);
+
+  --md-accent-fg-color:                var(--ata-investing-link);
+  --md-accent-fg-color--transparent:   var(--ata-investing-green-light);
+
+  --md-default-bg-color:               var(--ata-investing-black);
+
+  --md-default-fg-color:               var(--ata-investing-font-color);
+  --md-default-fg-color--light:        var(--ata-investing-font-color-light);
+  --md-default-fg-color--lighter:      var(--ata-investing-font-color-lighter);
+  --md-default-fg-color--lightest:     var(--ata-investing-font-color-lightest);
+
+
+  /* Link colors */
+  --md-typeset-a-color:         var(--ata-investing-link);
+
+  --md-footer-bg-color:         var(--ata-investing-font-color);
+}
+
+[data-md-color-scheme="light"] {
+  --ata-investing-green: hsla(153, 55%, 78% , 1);
+  --ata-investing-green-light: hsla(153, 100%, 74% , 0.1);
+  --ata-investing-black: #282a36;
+  --ata-investing-white: #f8f8f2;
+
+  --ata-investing-font-color: hsla(214, 13%, 24% , 1);
+  --ata-investing-font-color-light: hsla(214, 13%, 24% , 0.7);
+  --ata-investing-font-color-lighter: hsla(214, 13%, 24% , 0.32);
+  --ata-investing-font-color-lightest: hsla(214, 13%, 24% , 0.32);
+  --ata-investing-link: #8be9fd;
+
+  --md-primary-fg-color: linear-gradient(90deg, #bd93f9 20.31%, #50fa7b 55.74%, #ff5555 89.34%);
+
+  --md-primary-bg-color:               var(--ata-investing-font-color);
+  --md-primary-bg-color--light:        var(--ata-investing-font-color-light);
+
+  --md-accent-fg-color:                var(--ata-investing-link);
+  --md-accent-fg-color--transparent:   var(--ata-investing-green-light);
+
+  --md-default-bg-color:               var(--ata-investing-white);
+
+  --md-default-fg-color:               var(--ata-investing-font-color);
+  --md-default-fg-color--light:        var(--ata-investing-font-color-light);
+  --md-default-fg-color--lighter:      var(--ata-investing-font-color-lighter);
+  --md-default-fg-color--lightest:     var(--ata-investing-font-color-lightest);
+
+
+  /* Link colors */
+  --md-typeset-a-color:         var(--ata-investing-link);
+
+  --md-footer-bg-color:         var(--ata-investing-font-color);
+}
+
+  .md-header {
+    border-bottom: 3px solid;
+    border-image: var(--md-primary-fg-color);
+    border-image-slice: 1;
+    box-shadow: None;
+    background-color: var(--md-default-bg-color);
+  }
+
+  .md-search__form {
+    border-radius: 30px;
+  }
