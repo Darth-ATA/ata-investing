@@ -1,3 +1,5 @@
+![ata_investing.jpeg](docs/assets/ata_investing.jpeg)
+
 # ata-investing
 
 Repository with my knowledge about investing. And a possible future investing robot

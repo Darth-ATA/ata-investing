@@ -1,69 +1,94 @@
-[data-md-color-scheme="dark"] {
-  --ata-investing-green: hsla(153, 55%, 78% , 1);
-  --ata-investing-green-light: hsla(153, 100%, 74% , 0.1);
-  --ata-investing-black: #282a36;
-  --ata-investing-white: #f8f8f2;
 
-  --ata-investing-font-color: hsla(214, 13%, 24% , 1);
-  --ata-investing-font-color-light: hsla(214, 13%, 24% , 0.7);
-  --ata-investing-font-color-lighter: hsla(214, 13%, 24% , 0.32);
-  --ata-investing-font-color-lightest: hsla(214, 13%, 24% , 0.32);
-  --ata-investing-link: #8be9fd;
+:root{
+  @extend %root;
+  
+  --ata-investing-blue: #5EA9FC;
+  --ata-investing-light-blue: #62B0FF;
+  --ata-investing-dark-blue: #23283C;
 
-  --md-primary-fg-color: linear-gradient(90deg, #bd93f9 20.31%, #50fa7b 55.74%, #ff5555 89.34%);
+  --ata-investing-orange: #FF8659;
+  --ata-investing-light-orange: #F09368;
+  --ata-investing-dark-orange: #FF8C00;
 
-  --md-primary-bg-color:               var(--ata-investing-font-color);
-  --md-primary-bg-color--light:        var(--ata-investing-font-color-light);
-
-  --md-accent-fg-color:                var(--ata-investing-link);
-  --md-accent-fg-color--transparent:   var(--ata-investing-green-light);
-
-  --md-default-bg-color:               var(--ata-investing-black);
-
-  --md-default-fg-color:               var(--ata-investing-font-color);
-  --md-default-fg-color--light:        var(--ata-investing-font-color-light);
-  --md-default-fg-color--lighter:      var(--ata-investing-font-color-lighter);
-  --md-default-fg-color--lightest:     var(--ata-investing-font-color-lightest);
-
-
-  /* Link colors */
-  --md-typeset-a-color:         var(--ata-investing-link);
-
-  --md-footer-bg-color:         var(--ata-investing-font-color);
+  --ata-investing-white: #FCF8EF;
 }
 
 [data-md-color-scheme="light"] {
-  --ata-investing-green: hsla(153, 55%, 78% , 1);
-  --ata-investing-green-light: hsla(153, 100%, 74% , 0.1);
-  --ata-investing-black: #282a36;
-  --ata-investing-white: #f8f8f2;
+  --md-primary-fg-color: linear-gradient(90deg, #5EA9FC 20.31%, #FCF8EF 55.74%, #FF8659 89.34%);
 
-  --ata-investing-font-color: hsla(214, 13%, 24% , 1);
-  --ata-investing-font-color-light: hsla(214, 13%, 24% , 0.7);
-  --ata-investing-font-color-lighter: hsla(214, 13%, 24% , 0.32);
-  --ata-investing-font-color-lightest: hsla(214, 13%, 24% , 0.32);
-  --ata-investing-link: #8be9fd;
+  /* Primary color shades */
+  --md-primary-bg-color:               hsla(240, 19%, 20%, 1);
+  --md-primary-bg-color--light:        hsla(240, 19%, 20%, 0.7);
 
-  --md-primary-fg-color: linear-gradient(90deg, #bd93f9 20.31%, #50fa7b 55.74%, #ff5555 89.34%);
+  /* Accent color shades */
+  --md-accent-bg-color:                hsla(39, 100%, 97%, 1);
+  --md-accent-bg-color--light:         hsla(39, 100%, 97%, 0.7);
 
-  --md-primary-bg-color:               var(--ata-investing-font-color);
-  --md-primary-bg-color--light:        var(--ata-investing-font-color-light);
+  /* Color for font */
+  --md-typeset-color:         var(--ata-investing-dark-blue);
 
-  --md-accent-fg-color:                var(--ata-investing-link);
-  --md-accent-fg-color--transparent:   var(--ata-investing-green-light);
-
-  --md-default-bg-color:               var(--ata-investing-white);
-
-  --md-default-fg-color:               var(--ata-investing-font-color);
-  --md-default-fg-color--light:        var(--ata-investing-font-color-light);
-  --md-default-fg-color--lighter:      var(--ata-investing-font-color-lighter);
-  --md-default-fg-color--lightest:     var(--ata-investing-font-color-lightest);
-
+  /* Default color shades */
+  --md-default-fg-color:               hsla(240, 19%, 20%, 1);
+  --md-default-fg-color--light:        hsla(240, 19%, 20%, 0.7);
+  --md-default-fg-color--lighter:      hsla(240, 19%, 20%, 0.3);
+  --md-default-fg-color--lightest:     hsla(240, 19%, 20%, 0.12);
+  
+  --md-default-bg-color:               hsla(39, 100%, 97%, 0.87);
+  --md-default-bg-color--light:        hsla(39, 100%, 97%, 0.54);
+  --md-default-bg-color--lighter:      hsla(39, 100%, 97%, 0.32);
+  --md-default-bg-color--lightest:     hsla(39, 100%, 97%, 0.07);
 
   /* Link colors */
-  --md-typeset-a-color:         var(--ata-investing-link);
+  --md-typeset-a-color:         var(--ata-investing-dark-orange);
+  --md-footer-bg-color:         var(--ata-investing-dark-blue);
 
-  --md-footer-bg-color:         var(--ata-investing-font-color);
+  --md-accent-fg-color: var(--ata-investing-blue);
+
+  /* Footer color shades */
+  --md-footer-fg-color:                hsla(39, 100%, 97%, 1);
+  --md-footer-fg-color--light:         hsla(39, 100%, 97%, 0.7);
+  --md-footer-fg-color--lighter:       hsla(39, 100%, 97%, 0.45);
+  --md-footer-bg-color:                hsla(240, 19%, 20%, 0.87);
+  --md-footer-bg-color--dark:          hsla(240, 19%, 20%, 0.32);
+}
+
+[data-md-color-scheme="dark"] {
+  --md-primary-fg-color: linear-gradient(90deg, #5EA9FC 20.31%, #FCF8EF 55.74%, #FF8659 89.34%);
+
+  /* Primary color shades */
+  --md-primary-bg-color:               hsla(39, 100%, 97%, 1);
+  --md-primary-bg-color--light:        hsla(39, 100%, 97%, 0.7);
+
+  /* Accent color shades */
+  --md-accent-bg-color:                hsla(240, 19%, 20%, 1);
+  --md-accent-bg-color--light:         hsla(240, 19%, 20%, 0.7);
+
+  /* Color for font */
+  --md-typeset-color:         var(--ata-investing-white);
+
+  /* Default color shades */
+  --md-default-fg-color:               hsla(39, 100%, 97%, 0.87);
+  --md-default-fg-color--light:        hsla(39, 100%, 97%, 0.54);
+  --md-default-fg-color--lighter:      hsla(39, 100%, 97%, 0.32);
+  --md-default-fg-color--lightest:     hsla(39, 100%, 97%, 0.07);
+  
+  --md-default-bg-color:               hsla(240, 19%, 20%, 1);
+  --md-default-bg-color--light:        hsla(240, 19%, 20%, 0.7);
+  --md-default-bg-color--lighter:      hsla(240, 19%, 20%, 0.3);
+  --md-default-bg-color--lightest:     hsla(240, 19%, 20%, 0.12);
+
+  /* Link colors */
+  --md-typeset-a-color:         var(--ata-investing-dark-orange);
+  --md-footer-bg-color:         var(--ata-investing-white);
+
+  --md-accent-fg-color: var(--ata-investing-blue);
+
+  /* Footer color shades */
+  --md-footer-fg-color:                hsla(240, 19%, 20%, 1);
+  --md-footer-fg-color--light:         hsla(240, 19%, 20%, 0.7);
+  --md-footer-fg-color--lighter:       hsla(240, 19%, 20%, 0.45);
+  --md-footer-bg-color:                hsla(39, 100%, 97%, 0.87);
+  --md-footer-bg-color--dark:          hsla(39, 100%, 97%, 0.32);
 }
 
   .md-header {

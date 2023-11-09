@@ -5,8 +5,8 @@ edit_uri: edit/main/
 
 theme:
   name: material
-  logo: docs/assets/ata-investing.png
-  favicon: docs/assets/ata-investing.png
+  logo: docs/assets/ata_investing.jpeg
+  favicon: docs/assets/ata_investing.jpeg
   icon:
     repo: fontawesome/brands/github
   font:
