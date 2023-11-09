@@ -51,12 +51,19 @@ Fibonacci works because is a serie very common in the Nature.
 
 Once we determined the down in market, we can use grafic patterns to determine the buy/sell signals.
 
-* Go up patterns:
-    * **Double bottom**: is a grafic pattern that indicates that the price is going to go up
-    * **Bullish envelope**: is a grafic pattern that indicates that the price is going to go down
-* Go down patterns:
-    * **Double top**: is a grafic pattern that indicates that the price is going to go down
-    * **Bearish envelope**: is a grafic pattern that indicates that the price is going to go up
+**Bullish patterns**:
+
+* **Double bottom**: is a grafic pattern that indicates that the price is going to go up
+    ![double_bottom.png](img/double_bottom.png)
+* **Engulfing bullish**: is a grafic pattern that indicates that the price is going to go down
+    ![engulfing_bullish.png](img/engulfing_bullish.png)
+
+**Bearish patterns**:
+
+* **Double top**: is a grafic pattern that indicates that the price is going to go down
+    ![double_top.png](img/double_top.png)
+* **Kicking bearish**: is a grafic pattern that indicates that the price is going to go up
+    ![engulfing_bearish.png](img/engulfing_bearish.png)
 
 ## Indicators for determining buy/sell signals
 
