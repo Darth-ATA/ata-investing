@@ -4,7 +4,7 @@ Repository with my knowledge about investing. And a possible future investing ro
 
 ---
 
-**Documentation**:
+**Documentation**: <a href="https://darth-ata.github.io/ata-investing/" target="_blank">https://darth-ata.github.io/ata-investing/</a>
 
 **Source Code**: <a href="https://github.com/Darth-ATA/ata-investing" target="_blank">https://github.com/Darth-ATA/ata-investing</a>
 
