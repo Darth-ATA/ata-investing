@@ -76,6 +76,8 @@ We will use two moving averages:
 
 We will wait until the price cross the moving averages to determine the buy/sell signals.
 
+![moving_averages.png](img/moving_averages.png)
+
 ### Applying oscillators
 
 Using RSI (Relative Strength Index) we can determine the buy/sell signals.
