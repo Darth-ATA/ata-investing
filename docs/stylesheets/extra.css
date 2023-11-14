@@ -18,7 +18,9 @@
   --ata-investing-white-light: hsla(39, 100%, 97%, 0.87);
   --ata-investing-white-lighter: hsla(39, 100%, 97%, 0.54);
   --ata-investing-white-lightest: hsla(39, 100%, 97%, 0.32);
+}
 
+[data-md-color-scheme="light"] {
   /* Header line */
   --md-primary-fg-color: linear-gradient(
     90deg, 
@@ -26,9 +28,7 @@
     var(--ata-investing-white) 55.74%, 
     var(--ata-investing-orange) 89.34%
   );
-}
 
-[data-md-color-scheme="light"] {
   /* Primary color shades */
   --md-primary-bg-color:            var(--ata-investing-dark-blue);
   --md-primary-bg-color--light:     var(--ata-investing-dark-blue-light);
@@ -68,6 +68,14 @@
 }
 
 [data-md-color-scheme="dark"] {
+  /* Header line */
+  --md-primary-fg-color: linear-gradient(
+    90deg, 
+    var(--ata-investing-blue) 20.31%, 
+    var(--ata-investing-white) 55.74%, 
+    var(--ata-investing-orange) 89.34%
+  );
+  
   /* Primary color shades */
   --md-primary-bg-color:            var(--ata-investing-white);
   --md-primary-bg-color--light:     var(--ata-investing-white-light);
